@@ -155,7 +155,7 @@ If you've gotten this far, you know how to use the command line, so to test the 
 First, you'll want to populate the API with some test data. You can use the sample `jetsons.json` data file included in this repo. Open a new command prompt or terminal window and go to the directory that contains the `jetsons.json` file. Then enter this command:
 
 ```bash
-`curl --header "Content-Type: application/json" --header "Accept: application/json" --request PUT --data @jetsons.json http://localhost:8080/admin/load_election_data`
+curl --header "Content-Type: application/json" --header "Accept: application/json" --request PUT --data @jetsons.json http://localhost:8080/admin/load_election_data
 ```
 
 If everything is set up correctly, you'll see a response that looks something like this:
